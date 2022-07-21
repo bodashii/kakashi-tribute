@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: SeaGreen;
+    text-align: center;
+}
+
+nav {
+    background-color: SeaGreen;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+nav > div {
+    display:flex;
+    justify-content: space-around;
+}
+
+nav > ul > li, a {
+    background-color: SeaGreen;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+h1, h2, h3, h4 {
+    color: FireBrick;
+    background-color: papayawhip;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+section {
+    margin: 0 1rem;
+}
+
+.intro {
+    margin-bottom: 1rem;
+}
+
+.quote {
+    padding: 0 1rem;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+p, b, del, sub, sup, mark, i, em, strong, pre, blockquote, q {
+  background-color: papayawhip;
+}
+
+pre {
+    margin: 0 1rem;
+}
+
+li {
+    list-style: none;
+    padding: 0.25rem 0.5rem;
+}
+
+#about, #treats, #toys {
+    background-color: papayawhip;
+}
+
+#about > p > a {
+    background-color: papayawhip;
+    color: firebrick;
+}
+
+#about > article > p {
+    padding: 1rem;
+    line-spacing: 10px;
+}
+
+#treats > article > ul > li {
+    background-color: papayawhip;
+}
+
+#toys > article > ul > li {
+    background-color: papayawhip;
+}
+
+#contact {
+    margin-top: 1rem;
+}

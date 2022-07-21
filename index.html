@@ -1,0 +1,126 @@
+<!-- HTML stands for Hyper Text Markup Language -->
+<!-- HTML is the standard markup language for creating Web pages -->
+<!-- HTML describes the structure of the webpage -->
+<!-- HTML consists of a series of elements that tell the browser
+    how to display the content -->
+
+<!-- An HTML element is defined by a start tag, some content, and an end tag -->
+
+
+<!-- this declaration defines that this document is an HTML5 document  -->
+<!DOCTYPE html>
+<!-- this is the root element of an HTML page -->
+<!-- always include the lang attribute to declare the language of a webpage -->
+
+<html lang="en">
+  <!-- contains meta information about the HTML page -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Rabbit, Bunny, Californian, Lionhead">
+    <meta name="description" content="Kakashi's tribute page">
+    <meta name="author" content="Nicolas Young">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- specifies a title for the HTML page -->
+    <title>Kakashi's Tribute Page</title>
+  </head>
+  <!-- defines the document's body and is a container for all visible content
+        i.e. headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+  <body>
+    <header>
+       
+        <nav>
+            <div>
+                 <a href="/">Logo</a>
+            </div>
+            <div>
+                 <a href="#about">About</a>
+            <a href="#treats">Treats</a>
+            <a href="#toys">Toys</a>
+            <a href="#contact">Contact</a>
+            <a href="#resources">Resources</a>
+            </div>
+        </nav>
+    </header>
+    <!-- defines a large heading -->
+    <!-- title attribute extra information about an element -->
+    <h1 title="this is the title for Kakashi's page">Kakashi's Tribute Page</h1>
+    <!-- embeds an image in an HTML page -->
+    <!-- the src attribute specifies the path to the image to be displayed -->
+    <img src="./assets/images/IMG_9271.jpeg" height="480" width="360" alt="kakashi">
+    <!-- defines a paragraph -->
+    <section id="about">
+            <h2>What kind of rabbit is that?</h2>
+
+    <p class="intro">
+      <b>Kakashi</b> is a <del>californian</del> <sub>lion</sub><sup>head</sup> rabbit.<br />
+      <mark>He's</mark> <i>the</i> <em>shonen-bun</em>,<br />
+      <strong>aka</strong> <pre>caca-sensei</pre>
+    </p>
+    <br>
+    <p>According to <a href="https://lionheadrabbitcare.com/">Lionhead Rabbit Care</a></p>
+    <br>
+    <blockquote class="quote" cite="https://lionheadrabbitcare.com/californian-rabbit-white/"><q><i>While the Californian Rabbit is used mostly as a pet nowadays, it wasn’t originally bred for that purpose.<br>
+         Back in the 1920s, the purpose of the Californian Rabbit (sometimes referred to as the Californian White)<br>
+         was to create a rabbit that had a lot of meat and fur on it.</i></q></blockquote>
+    <br>
+    <h2>How did we come across Kakashi?</h2>
+    <article>
+        <p>On the way home from a shopping trip, my girlfriend spotted something on the side of the road.
+            Just for some scene development, its January or February in Texas. It was one of those it can freeze here too winters...
+            We found this white fur ball of a rabbit holding down the fort at a pole that use to be a street sign.
+            This was just outside of the city. Fortunately it was less than a block to the house. We darted home     and
+            outfitted ourselves with anything useful.
+        </p>
+        <p>We came out with a kennel, butterfly net, and some gloves.  He was a quick rabbit but I'd soon learn that was
+            a small extent of his speed. After about twenty minutes and discovering he was blind in his right eye we caught him!
+            We accepted from the start that we would more than likely be the proud parents of Kakashi the buninja.
+        </p>
+    </article>
+    </section>
+    
+    <section id="treats">
+        <h3>Kakashi's top picks!</h3>
+        <article>
+            <h4>Favorite delectables.</h4>
+            <p>Rabbits have a wide variety of snacks! Here's some of our boy's favorites:</p>
+            <ul>
+                <li>Parsley</li>
+                <li>Green Bell Peppers</li>
+                <li>Banana Peels</li>
+                <li>Apples</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="toys">
+        <article>
+            <h4 id="toys">Favorite toys.</h4>
+            <p>Kakashi isn't very spoiled. Most of the time he enjoys messing with my stuff.</p>
+            <ul>
+                <li>He likes to chew sticks</li>
+                <li>Springing, jumping, skipping, bouncing, parkour!</li>
+                <li>Moving my shoes around the room....</li>
+                <li>Timothy Hay dumbbells for the gains!</li>
+                <li>Box Spring Mattress</li>
+                <li><mark><b>Warning</b></mark> some tend to love spicy hay or any cables that are accessible to the buninja.</li>
+            </ul>
+        </article>
+    </section>
+  </body>
+  <footer>
+    <h2 id="contact">Contact</h2>
+    <ul>
+        <li>
+        <!-- the a tag defines a hyperlink -->
+        <!-- href attribute specifies the URL of the page the link goes to -->
+        <a href="https://github.com/maddnty" target="_blank">n.colasyoung</a>
+        </li>
+    </ul>
+    
+    <h3 id="resources">Other resources:</h3>
+    <ul>
+        <li><a href="https://rabbit.org/" target="_blank">rabbit.org</a></li>
+    </ul>
+  </footer>
+</html>
